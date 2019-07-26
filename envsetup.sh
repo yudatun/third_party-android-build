@@ -540,6 +540,7 @@ function lunch()
     export TARGET_PRODUCT=$product
     export TARGET_BUILD_VARIANT=$variant
     export TARGET_BUILD_TYPE=release
+    export LC_ALL=C
 
     echo
 
